@@ -4,4 +4,5 @@
   (lib (name "nordic-lib-kicad-nrf54")(type "KiCad")(uri "/home/hlord/Documents/NordicWork/nordic-lib-kicad-next/footprints/nordic-lib-kicad-nrf54.pretty")(options "")(descr ""))
   (lib (name "hlord2000-Crystal")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/footprints/hlord2000-Crystal.pretty")(options "")(descr ""))
   (lib (name "hlord2000-Oscillator")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/footprints/hlord2000-Oscillator.pretty")(options "")(descr ""))
+  (lib (name "hlord2000-RF_Antenna")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/footprints/hlord2000-RF_Antenna.pretty")(options "")(descr ""))
 )
