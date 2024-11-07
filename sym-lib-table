@@ -3,4 +3,6 @@
   (lib (name "nordic-lib-kicad-npm")(type "KiCad")(uri "/home/hlord/Documents/NordicWork/nordic-lib-kicad-next/symbols/nordic-lib-kicad-npm.kicad_sym")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf54")(type "KiCad")(uri "/home/hlord/Documents/NordicWork/nordic-lib-kicad-next/symbols/nordic-lib-kicad-nrf54.kicad_sym")(options "")(descr ""))
   (lib (name "hlord2000-Device")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/symbols/hlord2000-Device.kicad_sym")(options "")(descr ""))
+  (lib (name "hlord2000-Sensor_Motion")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/symbols/hlord2000-Sensor_Motion.kicad_sym")(options "")(descr ""))
+  (lib (name "hlord2000-Sensor_Audio")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/symbols/hlord2000-Sensor_Audio.kicad_sym")(options "")(descr ""))
 )
