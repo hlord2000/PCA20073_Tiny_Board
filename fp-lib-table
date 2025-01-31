@@ -8,4 +8,5 @@
   (lib (name "hlord2000-Sensor_Motion")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/footprints/hlord2000-Sensor_Motion.pretty")(options "")(descr ""))
   (lib (name "hlord2000-Sensor_Audio")(type "KiCad")(uri "/home/hlord/Documents/hlord2000-kicad-libraries/footprints/hlord2000-Sensor_Audio.pretty")(options "")(descr ""))
   (lib (name "nRF54L15_CR2032_Capacitor_SMD")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/nRF54L15_CR2032_Capacitor_SMD.pretty")(options "")(descr ""))
+  (lib (name "nRF54L15_Battery")(type "KiCad")(uri "${KIPRJMOD}/lib/footprints/nRF54L15_Battery.pretty")(options "")(descr ""))
 )

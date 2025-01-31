@@ -461,7 +461,7 @@
       "overlapping_rule_areas": "error",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -482,7 +482,7 @@
   },
   "meta": {
     "filename": "nRF54L15_nPM2100_CR2032.kicad_pro",
-    "version": 2
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -556,7 +556,7 @@
       "plot": "outputs/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "nRF54L15_nPM2100_CR2032.step",
       "svg": "",
       "vrml": ""
     },
@@ -595,13 +595,13 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -619,7 +619,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -650,14 +650,20 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PartId",
+          "name": "PartId",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "PartId"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -1,9 +1,14 @@
 (kicad_sch
-	(version 20241004)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "11f0c463-705e-471e-b65f-d511e9069764")
 	(paper "A4")
+	(title_block
+		(title "nRF54L Tiny Board")
+		(date "2025-01-30")
+		(rev "0.2")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
@@ -373,7 +378,7 @@
 			(symbol "Antenna_Chip_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.27 0)
+						(xy -2.54 0) (xy -2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -385,7 +390,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.54 -0.635)
+						(xy -2.54 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -5317,7 +5322,6 @@
 	)
 	(label "PDM_CLK"
 		(at 234.95 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5328,7 +5332,6 @@
 	)
 	(label "SCL"
 		(at 50.8 97.79 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5339,7 +5342,6 @@
 	)
 	(label "LED"
 		(at 66.04 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5350,7 +5352,6 @@
 	)
 	(label "LED"
 		(at 257.81 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5361,7 +5362,6 @@
 	)
 	(label "SDA"
 		(at 212.09 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5372,7 +5372,6 @@
 	)
 	(label "LSW"
 		(at 231.14 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5383,7 +5382,6 @@
 	)
 	(label "BUTTON0"
 		(at 66.04 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5394,7 +5392,6 @@
 	)
 	(label "INT1"
 		(at 237.49 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5405,7 +5402,6 @@
 	)
 	(label "SDA"
 		(at 66.04 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5412,6 @@
 	)
 	(label "UART_RX"
 		(at 66.04 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5427,7 +5422,6 @@
 	)
 	(label "INT1"
 		(at 66.04 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5438,7 +5432,6 @@
 	)
 	(label "BUTTON0"
 		(at 260.35 152.4 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5449,7 +5442,6 @@
 	)
 	(label "PDM_DATA"
 		(at 66.04 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5460,7 +5452,6 @@
 	)
 	(label "VDD_LS"
 		(at 219.71 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5471,7 +5462,6 @@
 	)
 	(label "LFCLK1"
 		(at 66.04 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5482,7 +5472,6 @@
 	)
 	(label "LFCLK1"
 		(at 46.99 72.39 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5493,7 +5482,6 @@
 	)
 	(label "UART_TX"
 		(at 66.04 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5504,7 +5492,6 @@
 	)
 	(label "INT2"
 		(at 237.49 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5515,7 +5502,6 @@
 	)
 	(label "SCL"
 		(at 212.09 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5526,7 +5512,6 @@
 	)
 	(label "SCL"
 		(at 66.04 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5537,7 +5522,6 @@
 	)
 	(label "LSW"
 		(at 66.04 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5548,7 +5532,6 @@
 	)
 	(label "VDD_LS"
 		(at 227.33 111.76 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5559,7 +5542,6 @@
 	)
 	(label "VDD_LS"
 		(at 246.38 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5570,7 +5552,6 @@
 	)
 	(label "PDM_CLK"
 		(at 66.04 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5581,7 +5562,6 @@
 	)
 	(label "PDM_DATA"
 		(at 234.95 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5592,7 +5572,6 @@
 	)
 	(label "INT2"
 		(at 66.04 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5603,7 +5582,6 @@
 	)
 	(label "SDA"
 		(at 40.64 100.33 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5624,7 +5602,7 @@
 			(fill
 				(type none)
 			)
-			(uuid f3b4ab30-dabf-4b98-b5dd-5bb2f272cdcc)
+			(uuid bea1b2bf-4f13-481f-a133-66b1c95d2056)
 		)
 	)
 	(netclass_flag ""
@@ -5710,6 +5688,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" ""
+			(at 224.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -5880,6 +5866,15 @@
 			)
 		)
 		(property "Consigned" "Y"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" ""
 			(at 173.99 102.87 0)
 			(effects
 				(font
@@ -6096,6 +6091,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" "102000283"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "C5"
@@ -6441,6 +6444,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100100065"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6476,7 +6488,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7nH"
+		(property "Value" "4.9nH"
 			(at 161.29 102.87 90)
 			(effects
 				(font
@@ -6512,6 +6524,15 @@
 			)
 		)
 		(property "LCSC" "C86126 "
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100300233"
 			(at 161.29 105.41 0)
 			(effects
 				(font
@@ -6589,6 +6610,15 @@
 			)
 		)
 		(property "LCSC" "C106225 "
+			(at 40.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100100065"
 			(at 40.64 95.25 0)
 			(effects
 				(font
@@ -6672,6 +6702,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200660"
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6742,6 +6781,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" "100300441"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6815,6 +6862,15 @@
 			)
 		)
 		(property "LCSC" "C23630"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200660"
 			(at 146.05 57.15 0)
 			(effects
 				(font
@@ -6894,6 +6950,15 @@
 			)
 		)
 		(property "LCSC" "C76939 "
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200469"
 			(at 219.71 114.3 0)
 			(effects
 				(font
@@ -7054,9 +7119,9 @@
 		(at 35.56 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "43f8d497-5317-4691-aa66-5ae12181429f")
 		(property "Reference" "TP1"
 			(at 33.02 103.3779 0)
@@ -7101,6 +7166,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" ""
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7176,6 +7249,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200660"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7198,9 +7280,9 @@
 		(at 195.58 25.4 90)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45bf2983-004b-46ff-8fed-19d354d30441")
 		(property "Reference" "JP1"
@@ -7246,6 +7328,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" ""
+			(at 195.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7358,7 +7448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Multicomp_BC-2001_1x2032"
+		(property "Footprint" "nRF54L15_Battery:BatteryHolder_Multicomp_BC-2001_1x2032"
 			(at 195.58 31.496 90)
 			(effects
 				(font
@@ -7392,6 +7482,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" "100500047"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7737,6 +7835,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100100109"
+			(at 224.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7810,6 +7917,15 @@
 			)
 		)
 		(property "LCSC" "C76939 "
+			(at 246.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200469"
 			(at 246.38 39.37 0)
 			(effects
 				(font
@@ -8026,6 +8142,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200469"
+			(at 224.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8171,6 +8296,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200469"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8207,7 +8341,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "APT3216LVBC/D"
+		(property "Value" "LB Q39E"
 			(at 267.97 118.0464 90)
 			(effects
 				(font
@@ -8216,7 +8350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 265.43 116.84 90)
 			(effects
 				(font
@@ -8244,6 +8378,15 @@
 			)
 		)
 		(property "LCSC" "C84273"
+			(at 265.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "101400142"
 			(at 265.43 116.84 0)
 			(effects
 				(font
@@ -8471,9 +8614,9 @@
 		(at 22.86 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "79024228-735f-4309-adde-c8d604bb61a6")
 		(property "Reference" "TP2"
 			(at 20.32 116.0779 0)
@@ -8518,6 +8661,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" ""
+			(at 22.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8672,7 +8823,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "806fd7c5-649c-4810-af7e-cfce10ea1502")
 		(property "Reference" "J1"
@@ -8718,6 +8869,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" ""
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -8806,6 +8965,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "101500104"
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8884,6 +9052,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200383"
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8955,6 +9132,15 @@
 			)
 		)
 		(property "LCSC" "C141606 "
+			(at 238.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" ""
 			(at 238.76 39.37 0)
 			(effects
 				(font
@@ -9044,6 +9230,14 @@
 				(hide yes)
 			)
 		)
+		(property "PartId" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aaf2818f-6e6f-4ba0-bbb5-ca2d33f47c02")
 		)
@@ -9115,6 +9309,15 @@
 			)
 		)
 		(property "LCSC" "C76939 "
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200469"
 			(at 120.65 34.29 0)
 			(effects
 				(font
@@ -9196,6 +9399,15 @@
 			)
 		)
 		(property "LCSC" "C17168"
+			(at 229.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100100109"
 			(at 229.87 114.3 0)
 			(effects
 				(font
@@ -9349,6 +9561,14 @@
 				(hide yes)
 			)
 		)
+		(property "PartId" ""
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e7391efb-50b3-4eb2-a030-45f9f83afc81")
 		)
@@ -9426,6 +9646,15 @@
 			)
 		)
 		(property "LCSC" "C85895 "
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200086"
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -9640,6 +9869,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100300223"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9710,6 +9948,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PartId" ""
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9796,6 +10042,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200469"
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9869,6 +10124,15 @@
 			)
 		)
 		(property "LCSC" "C22374845 "
+			(at 168.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200092"
 			(at 168.91 57.15 0)
 			(effects
 				(font
@@ -9952,6 +10216,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200086"
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10030,6 +10303,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200491"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10103,6 +10385,15 @@
 			)
 		)
 		(property "LCSC" "C7527987 "
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "101300187"
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -10320,6 +10611,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100300231"
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10398,6 +10698,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100100265"
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10471,6 +10780,15 @@
 			)
 		)
 		(property "LCSC" "C86126 "
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100300231"
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -10618,6 +10936,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100300242"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10696,6 +11023,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100300419"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10767,6 +11103,15 @@
 			)
 		)
 		(property "LCSC" "C307709 "
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100300016"
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -10850,6 +11195,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100100171"
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10923,6 +11277,15 @@
 			)
 		)
 		(property "LCSC" "C701263 "
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartId" "100200487"
 			(at 237.49 144.78 0)
 			(effects
 				(font
