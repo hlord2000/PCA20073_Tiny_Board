@@ -2158,6 +2158,86 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Management:SiP32432DR3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5602,7 +5682,7 @@
 			(fill
 				(type none)
 			)
-			(uuid bea1b2bf-4f13-481f-a133-66b1c95d2056)
+			(uuid 7cbdf0cd-8bb3-4ea7-b3f6-5588191d3a42)
 		)
 	)
 	(netclass_flag ""
@@ -5690,7 +5770,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartId" ""
+		(property "PartId" "ADXL366"
+			(at 224.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" "Y"
 			(at 224.79 134.62 0)
 			(effects
 				(font
@@ -5874,12 +5963,22 @@
 				(hide yes)
 			)
 		)
-		(property "PartId" ""
+		(property "PartId" "100700079"
 			(at 173.99 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" "Y/optional"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6094,6 +6193,14 @@
 			)
 		)
 		(property "PartId" "102000283"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -6453,6 +6560,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6533,6 +6649,15 @@
 			)
 		)
 		(property "PartId" "100300233"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 161.29 105.41 0)
 			(effects
 				(font
@@ -6619,6 +6744,15 @@
 			)
 		)
 		(property "PartId" "100100065"
+			(at 40.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 40.64 95.25 0)
 			(effects
 				(font
@@ -6711,6 +6845,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6784,6 +6927,15 @@
 			)
 		)
 		(property "PartId" "100300441"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -6876,6 +7028,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6959,6 +7120,15 @@
 			)
 		)
 		(property "PartId" "100200469"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 219.71 114.3 0)
 			(effects
 				(font
@@ -7176,6 +7346,14 @@
 				)
 			)
 		)
+		(property "Ship from Helmut" ""
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e9da8bb-0117-4142-8ccf-56e81fc69f03")
 		)
@@ -7258,6 +7436,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7331,6 +7518,14 @@
 			)
 		)
 		(property "PartId" ""
+			(at 195.58 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 195.58 25.4 0)
 			(effects
 				(font
@@ -7485,6 +7680,15 @@
 			)
 		)
 		(property "PartId" "100500047"
+			(at 195.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 195.58 33.02 0)
 			(effects
 				(font
@@ -7844,6 +8048,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 224.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7926,6 +8139,15 @@
 			)
 		)
 		(property "PartId" "100200469"
+			(at 246.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 246.38 39.37 0)
 			(effects
 				(font
@@ -8151,6 +8373,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 224.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8305,6 +8536,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8387,6 +8627,15 @@
 			)
 		)
 		(property "PartId" "101400142"
+			(at 265.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 265.43 116.84 0)
 			(effects
 				(font
@@ -8671,6 +8920,14 @@
 				)
 			)
 		)
+		(property "Ship from Helmut" ""
+			(at 22.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "542e2b97-18dd-40be-ad64-79fad327617a")
 		)
@@ -8678,6 +8935,70 @@
 			(project "nRF54L15_nPM2100_CR2032"
 				(path "/11f0c463-705e-471e-b65f-d511e9069764"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 180.34 152.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bea5550-3bce-47e3-a316-60d7c17a727b")
+		(property "Reference" "FID1"
+			(at 182.88 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 182.88 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 180.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 180.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/11f0c463-705e-471e-b65f-d511e9069764"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -8879,6 +9200,14 @@
 				)
 			)
 		)
+		(property "Ship from Helmut" ""
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "df5d6670-f342-4fb4-83fa-2533c5ee2590")
 		)
@@ -8974,6 +9303,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 265.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9061,6 +9399,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9073,6 +9420,70 @@
 			(project "nRF54L15_nPM2100_CR2032"
 				(path "/11f0c463-705e-471e-b65f-d511e9069764"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 180.34 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87687b90-8d3e-4fe3-b9ad-9b5b3bdb8b34")
+		(property "Reference" "FID2"
+			(at 182.88 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 182.88 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nRF54L15_nPM2100_CR2032"
+				(path "/11f0c463-705e-471e-b65f-d511e9069764"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -9140,7 +9551,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartId" ""
+		(property "PartId" "SiP32432DR3"
+			(at 238.76 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 238.76 39.37 0)
 			(effects
 				(font
@@ -9230,7 +9650,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartId" ""
+		(property "PartId" "ECS-.327-9-1210-TR "
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 63.5 69.85 0)
 			(effects
 				(font
@@ -9323,6 +9752,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9408,6 +9846,15 @@
 			)
 		)
 		(property "PartId" "100100109"
+			(at 229.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 229.87 114.3 0)
 			(effects
 				(font
@@ -9561,7 +10008,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartId" ""
+		(property "PartId" "SiT11100"
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" "Y"
 			(at 52.07 57.15 0)
 			(effects
 				(font
@@ -9655,6 +10111,15 @@
 			)
 		)
 		(property "PartId" "100200086"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -9878,6 +10343,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9950,7 +10424,16 @@
 				(hide yes)
 			)
 		)
-		(property "PartId" ""
+		(property "PartId" "MP34DT05-A"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 224.79 88.9 0)
 			(effects
 				(font
@@ -10051,6 +10534,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10133,6 +10625,15 @@
 			)
 		)
 		(property "PartId" "100200092"
+			(at 168.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 168.91 57.15 0)
 			(effects
 				(font
@@ -10225,6 +10726,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10312,6 +10822,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10394,6 +10913,15 @@
 			)
 		)
 		(property "PartId" "101300187"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -10620,6 +11148,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10707,6 +11244,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10789,6 +11335,15 @@
 			)
 		)
 		(property "PartId" "100300231"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 165.1 109.22 0)
 			(effects
 				(font
@@ -10945,6 +11500,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11027,6 +11591,15 @@
 			)
 		)
 		(property "PartId" "100300419"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -11117,6 +11690,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11129,6 +11711,70 @@
 			(project "nRF54L15_nPM2100_CR2032"
 				(path "/11f0c463-705e-471e-b65f-d511e9069764"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 180.34 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f43f4e1e-a5b2-4f6e-aad9-cfc3f7f06dc4")
+		(property "Reference" "FID3"
+			(at 182.88 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 182.88 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "nRF54L15_nPM2100_CR2032"
+				(path "/11f0c463-705e-471e-b65f-d511e9069764"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -11199,6 +11845,15 @@
 			)
 		)
 		(property "PartId" "100100171"
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 265.43 121.92 0)
 			(effects
 				(font
@@ -11286,6 +11941,15 @@
 			)
 		)
 		(property "PartId" "100200487"
+			(at 237.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ship from Helmut" ""
 			(at 237.49 144.78 0)
 			(effects
 				(font
