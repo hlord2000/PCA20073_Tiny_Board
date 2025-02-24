@@ -1,0 +1,220 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.0-rc2-3baa6cd791~182~ubuntu24.04.1"
+    },
+    "CreationDate": "2025-02-06T23:09:27-05:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "PCA20073_Tiny_Board",
+      "GUID": "50434132-3030-4373-935f-54696e795f42",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 26.7987,
+      "Y": 26.7987
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.5973,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.0762,
+      "PadToTrack": 0.0762,
+      "TrackToTrack": 0.0762,
+      "MinLineWidth": 0.075,
+      "TrackToRegion": 0.0762,
+      "RegionToRegion": 0.0762
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.0762,
+      "MinLineWidth": 0.1,
+      "TrackToRegion": 0.0762,
+      "RegionToRegion": 0.0762
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "PCA20073_Tiny_Board-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-In1_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-In2_Cu.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-B_Cu.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-F_Adhesive.gbr",
+      "FileFunction": "Glue,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-B_Adhesive.gbr",
+      "FileFunction": "Glue,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-User_Drawings.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PCA20073_Tiny_Board-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Direct Printing",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Blue",
+      "Thickness": 0.01,
+      "Material": "Epoxy",
+      "DielectricConstant": "3.3",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0356,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.2032,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0356,
+      "Name": "In1.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 1.0287,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0356,
+      "Name": "In2.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.2032,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0356,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Blue",
+      "Thickness": 0.01,
+      "Material": "Epoxy",
+      "DielectricConstant": "3.3",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Direct Printing",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
