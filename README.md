@@ -3,7 +3,11 @@ A very small demo board showing the solution size of Nordic's nRF54L15 in chip-s
 Alongside our components are our partners' products: **SiTime's** <0.5x0.5mm MEMS resonator, **Ignion's** 3x2mm 2.4G-10.6Hz chip antenna, **Analog Device's** new micropower 3-axis accelerometer
 
 <p align="center">
-    <img src="img/board.png">
+    <img src="img/board_closeup.jpg">
+</p>
+
+<p align="center">
+    <img src="img/board.jpg">
 </p>
 
 ## Key components
